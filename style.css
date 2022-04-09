@@ -48,7 +48,6 @@ a{
     }
     .navbar-expand-lg{ 
       z-index: 10;
-      position: fixed; 
       width: 100%; 
     }
     .navbar .container .collapse .navbar-nav .nav-item{
@@ -56,20 +55,13 @@ a{
       border-bottom: 2px solid transparent;
       box-sizing: border-box;
     }
-    .navbar .container .collapse .navbar-nav .nav-item a{
-      font-family: 'Roboto', sans-serif;
-      letter-spacing: .7px;
-      font-size: 1rem;
-    }
     .navbar .container .collapse .navbar-nav .nav-item:hover{
       border-bottom: 2px solid var(--main-color);
     }
     .navbar .container .navbar-toggler{
       border: none;
-    }
-    .navbar .container .navbar-toggler:focus{
       color: transparent;
-    }    
+    }
   /* end navbar */
 
   /* start jumbotron */
