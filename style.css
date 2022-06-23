@@ -495,7 +495,7 @@ a{
 
 /* start location */
   #location{
-    padding: 40px 0 !important;
+    padding-bottom: 40px;
   }
   #location .container h2{
     font-family: 'Poppins', sans-serif;
