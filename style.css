@@ -493,69 +493,39 @@ a{
   }
 /* end why-us */
 
-/* start contact */
-  #contact{
-    background-image: url(Picture/background-contact.png);
-    background-size: cover;
-    display: flex;
-    padding: 0;
+/* start location */
+  #location{
+    padding: 40px 0 !important;
   }
-  #contact .container .row > div{
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  #contact .container .row .col-lg-7{
-    background-color: var(--dark);
-  }
-  #contact .container .row .col-lg-7 h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 50px;
-    letter-spacing: .5px;
-    word-spacing: 2px;
-    color: var(--light);
-  }
-  #contact .container .row .col-lg-5{
-    background-image: url(Picture/background-contact-2.png);
-    display: grid;
-    grid-row-gap: 20px;
-    padding-left: 200px;
-  }
-  #contact .container .row .col-lg-5 *{
-    margin: auto;
-  }
-  #contact .container .row .col-lg-5 h2{
-    font-family: 'Roboto', sans-serif;
+  #location .container h2{
+    font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 28px;
-    color: var(--dark);
+    line-height: 42px;
+    color: var(--main-color);
+    margin-bottom: 20px;
   }
-  #contact .container .row .col-lg-5 h3{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    color: var(--dark);
-  }
-  #contact .container .row .col-lg-5 button{
+  #location .button{
     width: 220px;
     font-weight: bold;
     letter-spacing: 1.5px;
     word-spacing: 1.5px;
     transition: .5s;
-    padding: 0.1rem 0.5rem;
-    font-size: 26px;
-    border: 2px solid transparent;
-    background-color: var(--dark);
-    color: var(--second-color);
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    text-align: center;
+    background-color: var(--dark);
+    border: 2px solid transparent;
+    color: var(--light) !important; 
   }
-  #contact .container .row .col-lg-5 button:hover{
-    color: var(--dark);
-    background-color: var(--second-color);
+  #location .button:hover{
+    background-color: transparent;
+    border: 2px solid var(--dark) ;
+    color: var(--dark)   !important;
   }
-/* end contact */
+/* end location */
 
 /* start footer */
   #footer{
